@@ -24,18 +24,18 @@ In terms of layout we have used Bootstrap and CSS.
 ## Endpoints
 
 | HTTP Method | URI path            | Description      |      Protected |
-| :---         |   :---:            |          ---:    |           ---: |
+| :---         |   :---            |          :---   |           :---: |
 | GET          | /                  | Render index page and category   |          |
 | GET          | /inicio-sesion     | Render Login and Register page                          |    |
 | POST / PUT   | /inicio-sesion     | Handle login and register page   |    |
 | GET          | /perfiles/:id      | Render user profile                        |    |
 | POST         | /perfiles/:id      | Handle user profile (edit)    |    |
-| DELETE       | /perfiles/:id      | Handle user profile (delete)    |  U+2705  |
+| DELETE       | /perfiles/:id      | Handle user profile (delete)    | :heavy_check_mark:   |
 | GET          | /productos         | List of all products  |    |
-| GET          | /perfiles          | Render all users's profiles  | U+2705   |
-| PUT          | /                  | Modal to create product form | U+2705   |
+| GET          | /perfiles          | Render all users's profiles  | :heavy_check_mark:   |
+| PUT          | /                  | Modal to create product form | :heavy_check_mark:  |
 | GET          | /productos/:id     | Render product details   |  |
-| GET          | /productos/:id/editar   | Render edit page form   |  U+2705  |
-| POST / DELETE | /productos/:id/editar   | Handle edit and delete page form   |  U+2705  |
+| GET          | /productos/:id/editar   | Render edit page form   |  :heavy_check_mark:  |
+| POST / DELETE | /productos/:id/editar   | Handle edit and delete page form   |  :heavy_check_mark:   |
 | GET       | /detalles-pedido   | Render products in cart    |    |
 | GET       | /finalizar-compra  | Render payment page    |    |
